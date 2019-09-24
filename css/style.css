@@ -1,0 +1,80 @@
+
+
+$primary-color: #085352;
+$secondary-color: #4f5352;
+
+body{
+  padding-top: 10px;
+}
+
+h1{
+  font-family: Roboto;
+  font-weight: 900;
+  color: white;
+}
+
+h2,h3 {
+  color: #085352;
+  text-align: center;
+  font-size: 2em;
+  font-family: Roboto;
+}
+
+p {
+  font-family: ;
+}
+
+#logo{
+  height: 50px;
+}
+
+#menu{
+  font-size: 40px;
+}
+
+#banner{
+  height:350px;
+  background-image: url(https://images.pexels.com/photos/1068523/pexels-photo-1068523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-size: cover;
+  background-position: center;
+  background
+}
+
+.grayscale {
+  filter: grayscale(70%);
+}
+
+img.partners{
+  filter: grayscale(100%);
+  object-fit: contain;
+  object-position: center;
+  width: 100px;
+}
+
+.list-partners{
+  width:100vw;
+  padding:0 20px;
+  
+}
+
+.social {
+  align-self: center;
+}
+
+ul li {
+  display:inline;
+  padding: 20px;
+}
+
+.card{
+  margin:80px 0px;
+  padding: 10px;
+  width: calc(100%/2.1);
+  box-shadow: 0 13px 27px -5px rgba(50,50,93,.25);
+}
+
+.card h3{
+  text-align: left;
+  font-size: 1.5em;
+  font-family: Roboto;
+}
